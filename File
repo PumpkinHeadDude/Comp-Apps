@@ -1,0 +1,26 @@
+//Pre Game
+confirm("I consent to the playing of this game")
+confirm("That didn't sound enthusiastic enough, I need enthusiastic consent")
+prompt("Please enter 'Aww Hell Yea!' to continue")
+var age = prompt("Before we get started, are you even legal? Please enter your age");
+if (age < 18) {    
+    console.log("Since you enthusiastically consented, I have no moral problems with this, just don't tell anyone.")    
+} else {    
+    console.log ("Hell yea, lets get this fucking thing started!")    
+}
+//Some Story
+console.log("You are sitting at home when someone breaks into your house, you are unsure if he has weapons")
+console.log("The masked man yells at you to get down")
+var userAnswer =prompt ("Do you 'fight' the man, or do you 'comply'? Enter 'fight' or 'comply")
+if (userAnswer === "fight") {
+    console.log("You run into your kitchen and grab a knife, you are able to kill the masked man without much trouble")
+}else{
+    console.log("You get down on the ground thinking you'll be safe. Sadly, he takes off his pants and begins to fuck you. You die from anal rupture")
+}
+//Yay, this cancerous beiber game is finished
+var feedback = prompt("Hey, give me a rating 1-10 on this game you fucker")
+if (feedback > 8){
+    console.log("Thanks, appreciate it")
+}else{
+    console.log("Go fuck youself")
+}
